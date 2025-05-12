@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة سباق السيارات</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" style="background: rgba(0, 0, 0, 0.8);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Racing Game</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/index.html#projects">المشاريع</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- هيدر اللعبة -->
+    <header class="game-header text-center">
+        <div class="container">
+            <h1 data-aos="fade-up">🏎️ لعبة سباق السيارات</h1>
+            <p data-aos="fade-up" data-aos-delay="300">تجربة سباق واقعية باستخدام محرك Unreal Engine</p>
+        </div>
+    </header>
+
+    <!-- تفاصيل اللعبة -->
+    <section class="game-details container my-5">
+        <h2 data-aos="fade-up">📌 نظرة عامة على اللعبة</h2>
+        <p data-aos="fade-up" data-aos-delay="200">
+            لعبة سباق السيارات مصممة لتقديم تجربة واقعية مع تأثيرات فيزيائية متقدمة، بيئات مذهلة، ومنافسة قوية.
+        </p>
+
+        <h3 data-aos="fade-up" data-aos-delay="300">🚀 الميزات الرئيسية:</h3>
+        <ul data-aos="fade-up" data-aos-delay="400">
+            <li>واقعية عالية باستخدام Unreal Engine 5.</li>
+            <li>نظام ذكاء اصطناعي لتحدي اللاعبين بمستويات صعوبة مختلفة.</li>
+            <li>تعدد اللاعبين (Multiplayer) مع سباقات مباشرة.</li>
+            <li>تصميم بيئات مختلفة (مدن، جبال، صحراء).</li>
+            <li>تخصيص السيارات وإمكانية تعديلها بالكامل.</li>
+        </ul>
+
+        <h3 data-aos="fade-up" data-aos-delay="500">🛠️ التقنيات المستخدمة:</h3>
+        <ul data-aos="fade-up" data-aos-delay="600">
+            <li><strong>المحرك:</strong> Unreal Engine 5</li>
+            <li><strong>البرمجة:</strong> C++ / Blueprint</li>
+            <li><strong>الذكاء الاصطناعي:</strong> AI Behavior Trees</li>
+            <li><strong>التعددية:</strong> شبكة Photon Multiplayer</li>
+        </ul>
+
+        <h3 data-aos="fade-up" data-aos-delay="700">🎯 أهداف اللعبة:</h3>
+        <ul data-aos="fade-up" data-aos-delay="800">
+            <li>تقديم تجربة سباق غامرة تنافس الألعاب الواقعية.</li>
+            <li>إضافة أوضاع سباق متنوعة (سباق الوقت، سباقات التصادم، سباقات الدريفت).</li>
+            <li>تحقيق أداء عالي مع رسوميات متقدمة.</li>
+        </ul>
+
+        <h3 data-aos="fade-up" data-aos-delay="900">📷 صور من اللعبة:</h3>
+        <div class="row text-center" data-aos="fade-up" data-aos-delay="1000">
+            <div class="col-md-4">
+                <img src="racing-1.jpg" class="img-fluid" alt="سباق داخل المدينة">
+            </div>
+            <div class="col-md-4">
+                <img src="racing-2.jpg" class="img-fluid" alt="سباق على الجبال">
+            </div>
+            <div class="col-md-4">
+                <img src="racing-3.jpg" class="img-fluid" alt="نظام تعديل السيارات">
+            </div>
+        </div>
+    </section>
+
+    <!-- سكريبتات -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+</html>
